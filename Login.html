@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Math Time</title>
+	<title>Login</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
@@ -9,22 +9,28 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 
 <link rel="stylesheet" type="text/css" href="Login.css">
-
 <script src="Login.js"></script>
 </head>
-<body class="body1"><center><div>
-<div class="col-lg-4 col-sm-8 col-xs-11">
-	  <h3>Player 1 login </h3>
-	  <label>User Name</label>
-	  <input type="text" placeholder="Type User Name" id="player1_input" class="form-control">
-	</div>
-<br><br>
-<div class="col-lg-4 col-sm-8 col-xs-11">
-	<h3>Player 2 login </h3>
-	<label>User Name</label>
-	<input type="text" placeholder="Type User Name" id="player2_input" class="form-control">
-	</div>
-  <br><br>
-  <button class="btn btn-success" onclick="login()">Login</button></div></center>
-  </body>
-</html>
+<body id="body1">
+	<h1 style="text-align: center;">Lets Go</h1>
+    <br><br>
+
+    <div class="container">
+        <center><h3>Player 1 Login</h3>
+		<h5>Type your Username</h5>
+		<input id="player1_input" type="text" placeholder="Username"></center>
+        <br><br>
+        <button class="btn btn-info" id="login_button1" onclick="adduser()">Login</button>
+    </div>
+	<br><br>
+	<div class="container">
+        <center><h3>Player 2 Login</h3>
+		<h5>Type your Username</h5>
+		<input id="player2_input" type="text" placeholder="Username"></center>
+        <br><br>
+        <button class="btn btn-info" id="login_button2" onclick="adduser()">Login</button>
+    </div>
+    </body>
+    </html>
+ 
+	
